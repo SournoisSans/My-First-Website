@@ -1,0 +1,19 @@
+.banner p {
+    color: black;
+    font-size: 20px;
+}
+.banner .hakkımda {
+    width: 60%;
+    height: 70vh;
+    background: wheat;
+    margin: 40px auto;
+}
+.banner .hakkımda p {
+    margin: 26px;
+    font-family: "Roboto Mono" , sans-serif;
+}
+.banner .hakkımda h1 {
+    text-align: center;
+    font-family: "Roboto Mono" , sans-serif;
+    font-size: 40px;
+}

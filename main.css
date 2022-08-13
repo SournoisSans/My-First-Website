@@ -1,0 +1,43 @@
+@import "style.css";
+@import "hakkımda.css";
+@import "anime.css";
+@import "oyun.css";
+* {
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#513252, #7A4669, #513252)
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 25px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    border-radius: 7%;
+    margin-left: 50px;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+    font-size: 32px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffff
+}
+.navbar ul li a:hover {
+    box-shadow: 0px 3px #FFC18E;
+    transition: 1s;
+}
+.navbar ul {
+    margin-right: 40px;
+}
